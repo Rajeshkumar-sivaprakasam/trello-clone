@@ -1,5 +1,6 @@
 import { Bookmark } from '@mui/icons-material'
 import React from 'react'
+import './styles.scss'
 
 const Navbar = () => {
   return (
@@ -7,7 +8,9 @@ const Navbar = () => {
       <div className="container">
         <div>
           <Bookmark />
-          NavBar
+          <h1>
+            NavBar
+            </h1>
         </div>
       </div>
     </nav>

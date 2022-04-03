@@ -1,8 +1,14 @@
-import React from 'react'
-
+import React, { useState } from 'react'
+import {DragDropContext, Droppable} from 'react-beautiful-dnd'
 const Home = () => {
+  const [lists, setalists] = useState([]);
+
   return (
-    <div>Home</div>
+    <div>
+      <DragDropContext>
+<Droppable droppble/>
+      </DragDropContext>
+    </div>
   )
 }
 
